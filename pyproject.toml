@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "medtech_utils"
+name = "LFP_parser"
 version = "0.1.0"
-description = "Shared medical data preprocessing utilities"
+description = "Utility for parsing LFP data"
 requires-python = ">=3.10"
 dependencies = [
     "pandas",
