@@ -10,6 +10,8 @@ requires-python = ">=3.10"
 dependencies = [
     "pandas",
     "pyarrow",  # Required for handling parquet files
+    # Installs your custom parser directly from its GitHub repository
+    "perceptparser @ git+https://github.com/lizajivnani/percept_parser.git" 
 ]
 
 [tool.setuptools.packages.find]
